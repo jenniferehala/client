@@ -10,6 +10,7 @@ function Sidebar() {
         <div className="sidebar">
             <div className="course_title">
                 <p>Course Progress </p>
+<<<<<<< HEAD
                 <div data-toggle="dropdown" >
                     <select>
                         <option value="python">Python</option>
@@ -17,12 +18,17 @@ function Sidebar() {
                         <option value="python">Python</option>
                     </select>
 
+=======
+                <div className='dropdown' data-toggle="dropdown" >
+                    <ArrowRightIcon className="arrow_icon"/>
+                    <p>Python</p>
+>>>>>>> d54fd653ea9c16470927fe07723c87d2c64d805b
                 </div>
             </div>
             <div className="progress_label">
                 <span className="boxlabel_left"></span>
                 <div className="label_left">
-                    OnTime Progress
+                    On-Time Progress
                 </div>
                 <span className="boxlabel_right" ></span>
                 <div className="label_right">
@@ -69,4 +75,3 @@ function Sidebar() {
 }
 
 export default Sidebar;
-
