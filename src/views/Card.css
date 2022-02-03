@@ -27,10 +27,6 @@
 
 .card__title {
     position: absolute;
-<<<<<<< HEAD
-    margin-left: 20px;
-    margin-top: 20px;
-=======
     top: 80px;
     left: 20px;
     margin-left: 10px;
@@ -38,7 +34,6 @@
     display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
->>>>>>> d54fd653ea9c16470927fe07723c87d2c64d805b
     /* border-radius: 10px;
     padding: 20px;
     padding-top: 20px;

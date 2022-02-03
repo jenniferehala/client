@@ -7,13 +7,6 @@
     margin-bottom: 48px;
     padding: 31px 28px 30px;
     position: relative;
-<<<<<<< HEAD
-    /* right: 0;
-    top: 0; */
-    /* width: 738px; */
-    background-color: white;
-    flex: 1 20px;
-=======
     width: 738px;
     background-color: white;
     /* background-color: linen; */
@@ -21,7 +14,6 @@
     /* box-shadow: 0 4px 8px rgb(0 0 0 / 5%); */
     /* right: 0;
     top: 0; */
->>>>>>> d54fd653ea9c16470927fe07723c87d2c64d805b
 }
 
 #tracks_link {
@@ -31,10 +23,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-<<<<<<< HEAD
-=======
     margin: 20px 0px;
->>>>>>> d54fd653ea9c16470927fe07723c87d2c64d805b
     text-decoration: none;
 }
 
