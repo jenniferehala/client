@@ -1,47 +1,76 @@
 import React from 'react';
 import '../views/Sidebar.css'
 import SidebarRow from './SidebarRow';
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function Sidebar() {
     return (
 
         <div className="sidebar">
             <div className="course_title">
-                <h1>Course Progress </h1>
-                <h4> $ Course_Title - Python</h4>
+                <p>Course Progress </p>
+                <div data-toggle="dropdown" >
+                    {/* <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <ArrowRightIcon />
+                        Python v20.1
+                    </a> */}
+
+                    <select>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                    </select>
+
+
+
+
+                </div>
+            </div>
+            <div className="progress_label">
+                <span className="boxlabel_left"></span>
+                <div className="label_left">
+                    OnTime Progress
+                </div>
+                <span className="boxlabel_right" ></span>
+                <div className="label_right">
+                    Out-of-schedule Progress
+                </div>
+
             </div>
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437" />}
-                title="${chapter - Orientation}"
-                score="${assignmentsdone}" />
+                title="Orientation"
+                score="0/16" />
+
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/python.png?1459493418" />}
-                title="${chapter - Fundamentals}"
-                score="${assignmentsdone}" />
+                title="Fundamentals"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/flask.png?1459493434" />}
-                title="${chapter - Flask}"
-                score="${assignmentsdone}" />
+                title="Flask"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/mysql.png?1450147378" />}
-                title="${chapter - MySQL}"
-                score="${assignmentsdone}" />
+                title="MySQL"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437" />}
-                title="${chapter - Flask + MySQL}"
-                score="${assignmentsdone}" />
+                title="Flask + MySQL"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437" />}
-                title="${chapter - AJAX v20.4}"
-                score="${assignmentsdone}" />
+                title="AJAX v20.4"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/deployment.png?1448531694" />}
-                title="${chapter - Flask Deployment}"
-                score="${assignmentsdone}" />
+                title="Flask Deployment"
+                score="0/16" />
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/trial.png" />}
-                title="${chapter - Projects}"
-                score="${assignmentsdone}" />
+                title="Projects"
+                score="0/16" />
 
 
         </div>);

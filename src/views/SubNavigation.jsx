@@ -9,18 +9,20 @@ import ToggleOnIcon from '@mui/icons-material/ToggleOn';
 function SubNavigation() {
     return (
         <div className='sub'>
- 
 
-                <div className='sub__left'>
-                    <RotateLeftIcon className="rotate__icon"/>
-                    <p>Switch back to Classic Learn</p>
-                </div>
-                <div className='sub__right'>
-                    <BookmarkIcon fontSize="medium" />
-                    <LiveTvIcon fontSize="medium"></LiveTvIcon>
-                    <WarningAmberIcon fontSize="medium"></WarningAmberIcon>
-                        <ToggleOnIcon fontSize="large"></ToggleOnIcon>
-                </div>
+
+            <div className='sub__left'>
+                <RotateLeftIcon className="rotate__icon" />
+                <p>Switch back to Classic Learn</p>
+            </div>
+            <div className='sub__right'>
+                <BookmarkIcon />
+                <LiveTvIcon ></LiveTvIcon>
+                <WarningAmberIcon ></WarningAmberIcon>
+                <span className="toggle">
+                    <ToggleOnIcon ></ToggleOnIcon>
+                </span>
+            </div>
         </div>
     );
 }

@@ -1,33 +1,43 @@
 import React from 'react';
 import '../views/Widget.css'
 import Card from './Card';
+import Banner from './Banner';
+import MERN from '../img/MERN.png'
+import Python from '../img/Python.png'
+import career from '../img/career.png'
+import WebFund from '../img/WebFund.png'
+import Java from '../img/Java.png'
 
 function Widget() {
     return (
         <div className="widget">
-            {/* Banner */}
-            <div className="banner">
-                <h1>Tracks</h1>
-                <h4>continue learning</h4>
-                <h5>Mandatory Pre-bootcamp Track</h5>
-                <Card src="https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/full_stack_essentials_bg.png" />
+            <a href="" id="tracks_link">Tracks</a>
+            <a href="" id="continue_link">continue learning</a>
+            <Banner />
+
+            {/*  */}
+            <h5>Your Major Tracks</h5>
+            <div className="widget__section">
+
+                <Card
+                    src={MERN}
+                    title="MERN" />
+                <Card
+                    src={Python}
+                    title="PYTHON v.21.1" />
             </div>
-            <div className="card">
-                <h5>Your Major Tricks</h5>
+            <div className="widget__section">
                 <Card
-                    src="https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/full_stack_essentials_bg.png"
-                    title="" />
+                    src={career}
+                    title="CAREER SERVICES: FULL-TIME ONSITE & ONLINE" />
                 <Card
-                    src="https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/python_bg.png"
-                    title="" />
+                    src={WebFund}
+                    title="WEB FUNDAMENTALS (2021)" />
             </div>
-            <div className="card">
+            <div className="widget__section">
                 <Card
-                    src="https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/full_stack_essentials_bg.png"
-                    title="" />
-                <Card
-                    src="https://assets.codingdojo.com/learn_platform/user/dashboard/track_bg/web_fundamentals_bg.png"
-                    title="" />
+                    src={Java}
+                    title="Java" />
             </div>
         </div>);
 }

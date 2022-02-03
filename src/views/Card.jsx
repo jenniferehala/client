@@ -6,9 +6,8 @@ function Card({ src, title }) {
         <div className="card">
             <img src={src} alt="card" />
             <div className="card__title">
-                <h4>{title}</h4>
+                <p>{title}</p>
             </div>
-            <p>MERN</p>
 
         </div>);
 }

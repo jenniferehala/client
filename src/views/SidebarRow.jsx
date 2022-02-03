@@ -1,13 +1,23 @@
 import React from 'react';
 import "./SidebarRow.css"
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 function SidebarRow(props) {
     return (
 
-        <div className="sidebarRow">
-            {props.logo}
-            <h4>{props.title} ({props.score})</h4>
+        <div>
+            <div className="sidebarRow">
+                {props.logo}
+                <h4>{props.title} ({props.score})</h4>
+            </div>
+            {/* <div>
+                <h3>Hi hello
+                </h3>
+            </div> */}
         </div>
+
+
+
     );
 }
 
