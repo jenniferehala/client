@@ -10,27 +10,15 @@ function Sidebar() {
         <div className="sidebar">
             <div className="course_title">
                 <p>Course Progress </p>
-                <div data-toggle="dropdown" >
-                    {/* <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <ArrowRightIcon />
-                        Python v20.1
-                    </a> */}
-
-                    <select>
-                        <option value="python">Python</option>
-                        <option value="java">Java</option>
-                        <option value="python">Python</option>
-                    </select>
-
-
-
-
+                <div className='dropdown' data-toggle="dropdown" >
+                    <ArrowRightIcon className="arrow_icon"/>
+                    <p>Python</p>
                 </div>
             </div>
             <div className="progress_label">
                 <span className="boxlabel_left"></span>
                 <div className="label_left">
-                    OnTime Progress
+                    On-Time Progress
                 </div>
                 <span className="boxlabel_right" ></span>
                 <div className="label_right">
@@ -77,4 +65,3 @@ function Sidebar() {
 }
 
 export default Sidebar;
-
