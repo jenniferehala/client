@@ -5,14 +5,16 @@ import Card from './Card';
 function WidgetSingle() {
     return (
         <div>
-            <div className="widget">
-                {/* <div className="widget"> */}
-                <div className="widget"><a href="" id="tracks_link">Rules</a></div>
-                {/* </div> */}
-                {/* <div className="widget__section"> */}
+            <div className="widget_Single">
+
+
+                <h1>Rules</h1>
+
+
                 <img
                     src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804205__heylagostechie-kwzWjTnDPLk-unsplash.jpg"}
                 />
+
                 {/* </div> */}
                 <div className="widget">
                     <ul>
