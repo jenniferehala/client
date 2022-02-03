@@ -26,7 +26,6 @@
 
     display: flex;
     flex-direction: column;
-    /* background-color: lightskyblue; */
     justify-content: center;
     background-color: rgb(251, 251, 251);
     margin: 0 30 0 30px;

@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 import Widget from './Widget';
 import 'bootstrap/dist/css/bootstrap.css'
 import React from 'react';
+import '../views/Main.css'
 
 
 function Main() {

@@ -1,6 +1,5 @@
 import React from 'react';
 import "./SidebarRow.css"
-import ProgressBar from 'react-bootstrap/ProgressBar'
 
 function SidebarRow(props) {
     return (
@@ -8,7 +7,7 @@ function SidebarRow(props) {
         <div>
             <div className="sidebarRow">
                 {props.logo}
-                <h4><a href="">{props.title}</a> ({props.score})</h4>
+                <h4><a href="">{props.title}</a> </h4>
             </div>
         </div>
 
