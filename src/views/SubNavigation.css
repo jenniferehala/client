@@ -1,6 +1,6 @@
 .sub {
     display: flex !important;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
     z-index: 100;
     top: 0;

@@ -11,19 +11,11 @@ function Sidebar() {
             <div className="course_title">
                 <p>Course Progress </p>
                 <div data-toggle="dropdown" >
-                    {/* <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <ArrowRightIcon />
-                        Python v20.1
-                    </a> */}
-
                     <select>
                         <option value="python">Python</option>
                         <option value="java">Java</option>
                         <option value="python">Python</option>
                     </select>
-
-
-
 
                 </div>
             </div>
@@ -36,12 +28,12 @@ function Sidebar() {
                 <div className="label_right">
                     Out-of-schedule Progress
                 </div>
-
             </div>
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/Arrays.png?1524468437" />}
                 title="Orientation"
                 score="0/16" />
+
 
             <SidebarRow
                 logo={<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/course_icons/python.png?1459493418" />}

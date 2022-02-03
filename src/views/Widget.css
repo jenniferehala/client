@@ -12,8 +12,9 @@
     position: relative;
     /* right: 0;
     top: 0; */
-    width: 738px;
+    /* width: 738px; */
     background-color: white;
+    flex: 1 20px;
 }
 
 #tracks_link {
@@ -23,7 +24,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 20px;
-    margin: 0;
     text-decoration: none;
 }
 
