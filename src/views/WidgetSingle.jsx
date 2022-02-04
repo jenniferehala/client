@@ -8,35 +8,37 @@ function WidgetSingle() {
             <div className="widget_Single">
 
 
-                <h1>Rules</h1>
+                <p id="lesson_content">Rules</p>
 
 
-                <img
-                    src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804205__heylagostechie-kwzWjTnDPLk-unsplash.jpg"}
-                />
+                <div className="lesson_image">
+                    <img
+                        src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804205__heylagostechie-kwzWjTnDPLk-unsplash.jpg"}
+                    />
+                </div>
 
                 {/* </div> */}
-                <div className="widget">
-                    <ul>
-                        <li>Be Present</li>
-                        <li>Be Humble</li>
-                        <li>Be Strength through Struggle</li>
-                    </ul>
-                </div>
 
-                <div className="widget">
-                    <a href="" id="tracks_link">Professionalism</a>
-                </div>
-                <ul>
+                <ul id="rules_card">
+                    <li>Be Present</li>
+                    <li>Be Humble</li>
+                    <li>Be Strength through Struggle</li>
+                </ul>
+
+
+                <p id="lesson_content">Professionalism</p>
+                <ul id="rules_card">
                     <li>Do not use explicit language on/through any Coding Dojo resource</li>
                 </ul>
-                <div className="widget">
-                    <a href="" id="tracks_link">Zero Tolerance</a>
+
+                <p id="lesson_content">Zero Tolerance</p>
+
+                <div>
+                    <img className="narrow_image"
+                        src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804522__jon-tyson-2TzSuQZOHe4-unsplash.jpg"}
+                    />
                 </div>
-                <Card
-                    src={"https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1619804522__jon-tyson-2TzSuQZOHe4-unsplash.jpg"}
-                />
-                <ul>
+                <ul id="rules_card">
                     <li>Disrespect</li>
                     <li>Negative Attitude</li>
                     <li>Dishonesty
@@ -48,7 +50,7 @@ function WidgetSingle() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </div >
 
 
     );
