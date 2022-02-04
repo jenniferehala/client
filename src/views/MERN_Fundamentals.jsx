@@ -2,11 +2,10 @@ import React from 'react';
 import Header from './Header';
 import SubNav_Chapter from './SubNav_Chapter';
 import Sidebar_MERN from './Sidebar_MERN';
-import WidgetMERNIntro from './WidgetMERNIntro';
+import WidgetMERNFund from './WidgetMERNFund';
 
 
-function MERN_Intro() {
-
+function MERN_Fundamentals() {
     return (
         <div className="main">
             <div className="top">
@@ -16,14 +15,11 @@ function MERN_Intro() {
                 <SubNav_Chapter />
                 <div className="dash__container">
                     <Sidebar_MERN />
-                    <WidgetMERNIntro></WidgetMERNIntro>
-
+                    <WidgetMERNFund></WidgetMERNFund>
                 </div>
-
             </div>
-
-
-        </div>);
+        </div>
+    );
 }
 
-export default MERN_Intro;
+export default MERN_Fundamentals;
