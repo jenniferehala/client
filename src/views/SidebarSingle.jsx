@@ -27,13 +27,6 @@ function SidebarSingle() {
             </SidebarRowSingle>
 
             <SidebarRowSingle
-                title="Rules"
-                logo={<img src="https://assets.codingdojo.com/learn_platform/user/courses/module_sidebar_icons_v2.png"></img>
-                }>
-
-            </SidebarRowSingle>
-
-            <SidebarRowSingle
                 title="Requirements"
                 logo={<img src="https://assets.codingdojo.com/learn_platform/user/courses/module_sidebar_icons_v2.png"></img>
                 }>

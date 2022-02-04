@@ -2,9 +2,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Main from './views/Main';
 import { Switch, Route, Link } from 'react-router-dom';
-import SinglePage from './views/SinglePage';
+import Orientation_Rules from './views/Orientation_Rules';
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import Orientation_Req from './views/Orientation_Req';
+import Orientation_Exams from './views/Orientation_Exams';
+import Orientation_AH from './views/Orientation_AH';
+import Orientation_Surveys from './views/Orientation_Surveys';
 
 
 function App() {
@@ -18,9 +21,29 @@ function App() {
           <Main />
         </Route>
 
-        <Route exact path="/dojo/:_id">
-          <SinglePage />
+        <Route exact path="/dojo/:_id/1">
+          <Orientation_Rules />
+
+
         </Route>
+        <Route exact path="/dojo/:_id/2">
+          <Orientation_Req />
+        </Route>
+
+        <Route exact path="/dojo/:_id/3">
+          <Orientation_Exams />
+        </Route>
+
+        <Route exact path="/dojo/:_id/4">
+          <Orientation_AH />
+        </Route>
+
+        <Route exact path='/dojo/:_id/5'>
+          <Orientation_Surveys />
+
+        </Route>
+
+
       </Switch>
 
 
