@@ -1,6 +1,5 @@
 import React from 'react';
 import '../views/SubNav_Chapter.css'
-import RotateLeftIcon from '@mui/icons-material/RotateLeft';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
